@@ -10,6 +10,46 @@ body{
  font-family: "Poppins", sans-serif;
 
 }
+.bg-unchain{
+  background-image: url('bg-unchain.png')!important;
+  background-size: cover;
+  background-position:center;
+  min-height: 786px;
+  max-height: 786px;
+  margin-bottom: -6.7em;
+}
+.bg-wholesale{
+  background-image: url('bg-wholesale.png')!important;
+  background-size: cover;
+  background-position:center;
+  min-height: 786px;
+  max-height: 786px;
+  margin-bottom: -6.7em;
+}
+.bg-buyers{
+  background-image: url('bg-buyers.png')!important;
+  background-size: cover;
+  background-position:center;
+  min-height: 786px;
+  max-height: 786px;
+  margin-bottom: -6.7em;
+}
+.bg-ecommerce{
+  background-image: url('bg-ecommerce.png')!important;
+  background-size: cover;
+  background-position:center;
+  min-height: 786px;
+  max-height: 786px;
+  margin-bottom: -6.7em;
+}
+.bg-customs-brokers{
+  background-image: url('bg-custom-broker.png')!important;
+  background-size: cover;
+  background-position:center;
+  min-height: 786px;
+  max-height: 786px;
+  margin-bottom: -6.7em;
+}
 .bg-booking-management{
   background-image: url('bg-booking.png')!important;
   background-size: cover;
@@ -261,6 +301,12 @@ text-align: left;
 
 }
 
+.h1{
+  font-size: 200px;
+  font-weight: bold;
+  color:#997400;
+  opacity: 0.3;
+}
 .p-md{
  font-family: Poppins;
  font-size: 18px;
@@ -548,6 +594,11 @@ padding: 53px 61px;
   height: 546px;
 }
 /* Best Shipping */
+.shipping-centered{
+  margin-top:6.7em;
+  height: 496px;
+  text-align: center;
+}
 .shipping{
   margin-left:17em;
   margin-top:13em;
