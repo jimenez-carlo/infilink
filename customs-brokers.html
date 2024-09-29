@@ -48,7 +48,7 @@
         </nav>
 
         <!-- menu -->
-        <nav class="navbar navbar-expand-lg bg-light top-menu">
+        <nav class="navbar navbar-expand-lg bg-light top-menu d-sm-none d-lg-block">
           <div class="container-fluid">
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -65,7 +65,7 @@
                   <a class="nav-link text-white p-md text-no-wrap" aria-current="page" href="ocean-freight.html">Ocean
                     Freight</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ">
                   <a class="nav-link text-white p-md text-no-wrap" aria-current="page" href="air-freight.html">Air
                     Freight</a>
                 </li>
@@ -74,12 +74,14 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white p-md text-no-wrap" aria-current="page"
-                    href="less-than-container.html">Less Than
+                    href="less-than-container.html">Less
+                    Than
                     Container</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white p-md text-no-wrap" aria-current="page"
-                    href="order-management.html">Order Management</a>
+                    href="order-management.html">Order
+                    Management</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white p-md text-no-wrap" aria-current="page"
@@ -96,17 +98,15 @@
         <!-- Main-1 -->
         <div class="content-1 container-sm">
           <div class="row">
-            <div class="col-6">
+            <div class="col-sm-12 col-lg-6">
 
-              <h1 class="text-white">Customs <br>Brokers</h1>
+              <h1 class="text-white">Customs<br> Brokers</h1>
               <p class="text-white pt-3">Flexport is the platform that coordinates global logistics from factory to
-                customer
-                door —
-                empowering
-                businesses to ship
+                customer door — empowering businesses to ship
                 anywhere, sell everywhere and grow faster.
               </p>
-              <!-- <div class="btn-group btn-primary btn-lg">
+
+              <div class="btn-group btn-primary btn-lg d-sm-block d-lg-none">
                 <button type="button" class="btn btn-warning dropdown-toggle p-md btn-cta" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Consultation
@@ -116,9 +116,10 @@
                   <li><a class="dropdown-item" href="#">Menu item</a></li>
                   <li><a class="dropdown-item" href="#">Menu item</a></li>
                 </ul>
-              </div> -->
+              </div>
             </div>
-            <div class="col-6">
+
+            <div class="col-sm-12 col-lg-6">
               <div class="card r-20 card-location rounded-0 bg-dark-gray">
                 <div class="card-body card-form-appointment">
                   <p class="p-36 text-white">Make An Appoitment</p>
@@ -142,11 +143,11 @@
                       </div>
                     </div>
                     <div class="row mb-3 mtop-26">
-                      <div class="col-6">
+                      <div class="col-sm-12 col-lg-6">
                         <input type="text" class="form-control rounded-0  bg-transparent" placeholder="Date"
                           aria-label="Date">
                       </div>
-                      <div class="col-6">
+                      <div class="col-sm-12 col-lg-6">
                         <button type="button"
                           class="btn btn-warning bg-yellow-brown text-white border-yellow-brown btn-submit-request">
                           Submit Request
@@ -159,115 +160,14 @@
               </div>
               </form>
             </div>
-            <!-- <div class="col-12 d-flex justify-content-center half-card p-0 mtop-5em">
-              <div class="card rounded-0 border-0">
-                <div class="card-body half-card-content text-white bg-warning">
-                  <h6 style="align-items: end;" class="card-title d-flex "><svg width="34" height="38"
-                      style="margin-right:1em" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M31.9656 13.6272C30.78 11.348 29.0535 9.34274 26.9726 7.82807C26.6257 7.57556 26.1395 7.65233 25.887 7.99987C25.6346 8.34741 25.7115 8.83408 26.0586 9.0868C29.7465 11.7713 32.0273 16.0074 32.263 20.5367H24.7855C24.7469 18.6201 24.5659 16.7583 24.2452 14.9921C24.1685 14.5693 23.763 14.2888 23.3415 14.3658C22.9193 14.4427 22.6392 14.8478 22.716 15.2706C23.0203 16.9458 23.193 18.714 23.2313 20.5368H11.159C11.1979 18.6807 11.3762 16.8822 11.6908 15.1806C11.7689 14.7581 11.49 14.3521 11.0681 14.274C10.6457 14.1958 10.2406 14.475 10.1624 14.8975C9.83084 16.6915 9.64412 18.5852 9.60485 20.537H2.12719C2.37048 15.7788 4.8332 11.4134 8.82242 8.74444C9.17929 8.50573 9.27524 8.02249 9.03671 7.66519C8.79828 7.30789 8.31573 7.21183 7.95886 7.45054C3.32057 10.5538 0.551453 15.7368 0.551453 21.315C0.551453 30.5036 8.01782 37.979 17.1953 37.979C26.3727 37.979 33.8391 30.5036 33.8391 21.315C33.8389 18.6413 33.1911 15.983 31.9656 13.6272ZM23.5905 30.4395C24.9036 30.9865 26.1297 31.7055 27.2345 32.5832C25.4497 34.1789 23.2853 35.357 20.8953 35.9625C21.5737 35.1536 22.1929 34.1122 22.7326 32.8551C23.0546 32.1056 23.3406 31.296 23.5905 30.4395ZM17.1952 36.4225C18.6655 36.4225 20.1634 34.8982 21.3048 32.2404C21.6139 31.5206 21.8883 30.7408 22.1267 29.9124C20.5612 29.4325 18.9002 29.182 17.1952 29.182C15.4964 29.182 13.8337 29.4334 12.2645 29.9151C12.5027 30.7424 12.7768 31.5214 13.0855 32.2404C14.2269 34.8982 15.7248 36.4225 17.1952 36.4225ZM11.6575 32.855C12.1973 34.112 12.8165 35.1535 13.495 35.9624C11.1048 35.3568 8.94043 34.1787 7.15559 32.5829C8.25924 31.7075 9.48733 30.9901 10.8008 30.4432C11.0505 31.2983 11.3362 32.1066 11.6575 32.855ZM11.8834 28.4051C13.5773 27.8931 15.3679 27.626 17.1951 27.626C19.0289 27.626 20.8177 27.8918 22.5076 28.4018C22.9356 26.465 23.1846 24.3249 23.2314 22.093H11.1589C11.2058 24.3262 11.455 26.4675 11.8834 28.4051ZM2.12544 22.093H9.60466C9.65346 24.5056 9.92888 26.8259 10.4069 28.923C8.82638 29.5579 7.35406 30.4179 6.04369 31.4822C3.76158 28.9753 2.30905 25.6991 2.12544 22.093ZM23.9842 28.9194C25.5642 29.5542 27.0352 30.414 28.3474 31.4812C30.6289 28.9745 32.0813 25.6987 32.2649 22.0928H24.7857C24.7369 24.5041 24.4616 26.8232 23.9842 28.9194Z"
-                        fill="white" />
-                      <path
-                        d="M20.6992 6.44341C20.6992 4.51138 19.1288 2.93945 17.1987 2.93945C16.7452 2.93945 16.3778 3.30735 16.3778 3.76113C16.3778 4.21491 16.7452 4.58281 17.1987 4.58281C18.2236 4.58281 19.0575 5.41752 19.0575 6.44341C19.0575 7.4693 18.2236 8.30402 17.1987 8.30402C16.6628 8.30402 16.1273 8.07077 15.766 7.6802C15.4571 7.34616 15.3049 6.92941 15.3375 6.50684C15.3724 6.05437 15.0343 5.6592 14.5824 5.62425C14.131 5.59007 13.7357 5.92773 13.7007 6.38009C13.6324 7.26443 13.938 8.12259 14.5612 8.79658C15.2376 9.52799 16.1989 9.94737 17.1987 9.94737C19.1289 9.94737 20.6992 8.37545 20.6992 6.44341Z"
-                        fill="white" />
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M17.1953 18.7073C17.0169 18.7073 16.8391 18.6444 16.6963 18.5194C16.4663 18.3181 11.0633 13.5064 11.0634 6.49684C11.0634 3.08627 13.8141 0.311523 17.1952 0.311523C20.5763 0.311523 23.3271 3.08627 23.3272 6.49673C23.3272 14.0269 17.8929 18.3652 17.6616 18.5462C17.524 18.6539 17.3594 18.7073 17.1953 18.7073ZM21.8053 6.49698C21.8053 3.93284 19.7373 1.84671 17.1952 1.84671C14.6531 1.84671 12.585 3.93284 12.585 6.49698C12.585 11.6317 15.949 15.5867 17.2181 16.8958C18.4919 15.6788 21.8053 11.9848 21.8053 6.49698Z"
-                        fill="white" />
-                    </svg>
-                    Ocean Freight</h6>
-
-                  <p class="p-sm mt-4">We offer ocean freight solutions for businesses of all sizes. Unlock the power of
-                    our
-                    global trade
-                    network, customs
-                    brokerage, and trade advisory to move your goods with ease. Our technology provides SKU-level
-                    visibility so you have
-                    peace of mind from origin to port.</p>
-                </div>
-              </div>
-              <div class="card rounded-0 border-0">
-                <div class="card-body half-card-content text-white bg-gray">
-                  <h6 style="align-items: end;" class="card-title d-flex"><svg width="34" height="38"
-                      style="margin-right:1em" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M31.9656 13.6272C30.78 11.348 29.0535 9.34274 26.9726 7.82807C26.6257 7.57556 26.1395 7.65233 25.887 7.99987C25.6346 8.34741 25.7115 8.83408 26.0586 9.0868C29.7465 11.7713 32.0273 16.0074 32.263 20.5367H24.7855C24.7469 18.6201 24.5659 16.7583 24.2452 14.9921C24.1685 14.5693 23.763 14.2888 23.3415 14.3658C22.9193 14.4427 22.6392 14.8478 22.716 15.2706C23.0203 16.9458 23.193 18.714 23.2313 20.5368H11.159C11.1979 18.6807 11.3762 16.8822 11.6908 15.1806C11.7689 14.7581 11.49 14.3521 11.0681 14.274C10.6457 14.1958 10.2406 14.475 10.1624 14.8975C9.83084 16.6915 9.64412 18.5852 9.60485 20.537H2.12719C2.37048 15.7788 4.8332 11.4134 8.82242 8.74444C9.17929 8.50573 9.27524 8.02249 9.03671 7.66519C8.79828 7.30789 8.31573 7.21183 7.95886 7.45054C3.32057 10.5538 0.551453 15.7368 0.551453 21.315C0.551453 30.5036 8.01782 37.979 17.1953 37.979C26.3727 37.979 33.8391 30.5036 33.8391 21.315C33.8389 18.6413 33.1911 15.983 31.9656 13.6272ZM23.5905 30.4395C24.9036 30.9865 26.1297 31.7055 27.2345 32.5832C25.4497 34.1789 23.2853 35.357 20.8953 35.9625C21.5737 35.1536 22.1929 34.1122 22.7326 32.8551C23.0546 32.1056 23.3406 31.296 23.5905 30.4395ZM17.1952 36.4225C18.6655 36.4225 20.1634 34.8982 21.3048 32.2404C21.6139 31.5206 21.8883 30.7408 22.1267 29.9124C20.5612 29.4325 18.9002 29.182 17.1952 29.182C15.4964 29.182 13.8337 29.4334 12.2645 29.9151C12.5027 30.7424 12.7768 31.5214 13.0855 32.2404C14.2269 34.8982 15.7248 36.4225 17.1952 36.4225ZM11.6575 32.855C12.1973 34.112 12.8165 35.1535 13.495 35.9624C11.1048 35.3568 8.94043 34.1787 7.15559 32.5829C8.25924 31.7075 9.48733 30.9901 10.8008 30.4432C11.0505 31.2983 11.3362 32.1066 11.6575 32.855ZM11.8834 28.4051C13.5773 27.8931 15.3679 27.626 17.1951 27.626C19.0289 27.626 20.8177 27.8918 22.5076 28.4018C22.9356 26.465 23.1846 24.3249 23.2314 22.093H11.1589C11.2058 24.3262 11.455 26.4675 11.8834 28.4051ZM2.12544 22.093H9.60466C9.65346 24.5056 9.92888 26.8259 10.4069 28.923C8.82638 29.5579 7.35406 30.4179 6.04369 31.4822C3.76158 28.9753 2.30905 25.6991 2.12544 22.093ZM23.9842 28.9194C25.5642 29.5542 27.0352 30.414 28.3474 31.4812C30.6289 28.9745 32.0813 25.6987 32.2649 22.0928H24.7857C24.7369 24.5041 24.4616 26.8232 23.9842 28.9194Z"
-                        fill="white" />
-                      <path
-                        d="M20.6992 6.44341C20.6992 4.51138 19.1288 2.93945 17.1987 2.93945C16.7452 2.93945 16.3778 3.30735 16.3778 3.76113C16.3778 4.21491 16.7452 4.58281 17.1987 4.58281C18.2236 4.58281 19.0575 5.41752 19.0575 6.44341C19.0575 7.4693 18.2236 8.30402 17.1987 8.30402C16.6628 8.30402 16.1273 8.07077 15.766 7.6802C15.4571 7.34616 15.3049 6.92941 15.3375 6.50684C15.3724 6.05437 15.0343 5.6592 14.5824 5.62425C14.131 5.59007 13.7357 5.92773 13.7007 6.38009C13.6324 7.26443 13.938 8.12259 14.5612 8.79658C15.2376 9.52799 16.1989 9.94737 17.1987 9.94737C19.1289 9.94737 20.6992 8.37545 20.6992 6.44341Z"
-                        fill="white" />
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M17.1953 18.7073C17.0169 18.7073 16.8391 18.6444 16.6963 18.5194C16.4663 18.3181 11.0633 13.5064 11.0634 6.49684C11.0634 3.08627 13.8141 0.311523 17.1952 0.311523C20.5763 0.311523 23.3271 3.08627 23.3272 6.49673C23.3272 14.0269 17.8929 18.3652 17.6616 18.5462C17.524 18.6539 17.3594 18.7073 17.1953 18.7073ZM21.8053 6.49698C21.8053 3.93284 19.7373 1.84671 17.1952 1.84671C14.6531 1.84671 12.585 3.93284 12.585 6.49698C12.585 11.6317 15.949 15.5867 17.2181 16.8958C18.4919 15.6788 21.8053 11.9848 21.8053 6.49698Z"
-                        fill="white" />
-                    </svg>
-                    Air Freight</h6>
-
-                  <p class="p-sm mt-4">Flexport Air provides unparalleled reliability and speed for your time-sensitive
-                    shipments. Track
-                    your shipments in real
-                    time and manage your costs. Plus, our charter services offer flexibility when you need it most.</p>
-                </div>
-              </div>
-
-              <div class="card rounded-0 border-0">
-                <div class="card-body half-card-content text-white bg-gray">
-                  <h6 style="align-items: end;" class="card-title d-flex"><svg width="34" height="38"
-                      style="margin-right:1em" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M31.9656 13.6272C30.78 11.348 29.0535 9.34274 26.9726 7.82807C26.6257 7.57556 26.1395 7.65233 25.887 7.99987C25.6346 8.34741 25.7115 8.83408 26.0586 9.0868C29.7465 11.7713 32.0273 16.0074 32.263 20.5367H24.7855C24.7469 18.6201 24.5659 16.7583 24.2452 14.9921C24.1685 14.5693 23.763 14.2888 23.3415 14.3658C22.9193 14.4427 22.6392 14.8478 22.716 15.2706C23.0203 16.9458 23.193 18.714 23.2313 20.5368H11.159C11.1979 18.6807 11.3762 16.8822 11.6908 15.1806C11.7689 14.7581 11.49 14.3521 11.0681 14.274C10.6457 14.1958 10.2406 14.475 10.1624 14.8975C9.83084 16.6915 9.64412 18.5852 9.60485 20.537H2.12719C2.37048 15.7788 4.8332 11.4134 8.82242 8.74444C9.17929 8.50573 9.27524 8.02249 9.03671 7.66519C8.79828 7.30789 8.31573 7.21183 7.95886 7.45054C3.32057 10.5538 0.551453 15.7368 0.551453 21.315C0.551453 30.5036 8.01782 37.979 17.1953 37.979C26.3727 37.979 33.8391 30.5036 33.8391 21.315C33.8389 18.6413 33.1911 15.983 31.9656 13.6272ZM23.5905 30.4395C24.9036 30.9865 26.1297 31.7055 27.2345 32.5832C25.4497 34.1789 23.2853 35.357 20.8953 35.9625C21.5737 35.1536 22.1929 34.1122 22.7326 32.8551C23.0546 32.1056 23.3406 31.296 23.5905 30.4395ZM17.1952 36.4225C18.6655 36.4225 20.1634 34.8982 21.3048 32.2404C21.6139 31.5206 21.8883 30.7408 22.1267 29.9124C20.5612 29.4325 18.9002 29.182 17.1952 29.182C15.4964 29.182 13.8337 29.4334 12.2645 29.9151C12.5027 30.7424 12.7768 31.5214 13.0855 32.2404C14.2269 34.8982 15.7248 36.4225 17.1952 36.4225ZM11.6575 32.855C12.1973 34.112 12.8165 35.1535 13.495 35.9624C11.1048 35.3568 8.94043 34.1787 7.15559 32.5829C8.25924 31.7075 9.48733 30.9901 10.8008 30.4432C11.0505 31.2983 11.3362 32.1066 11.6575 32.855ZM11.8834 28.4051C13.5773 27.8931 15.3679 27.626 17.1951 27.626C19.0289 27.626 20.8177 27.8918 22.5076 28.4018C22.9356 26.465 23.1846 24.3249 23.2314 22.093H11.1589C11.2058 24.3262 11.455 26.4675 11.8834 28.4051ZM2.12544 22.093H9.60466C9.65346 24.5056 9.92888 26.8259 10.4069 28.923C8.82638 29.5579 7.35406 30.4179 6.04369 31.4822C3.76158 28.9753 2.30905 25.6991 2.12544 22.093ZM23.9842 28.9194C25.5642 29.5542 27.0352 30.414 28.3474 31.4812C30.6289 28.9745 32.0813 25.6987 32.2649 22.0928H24.7857C24.7369 24.5041 24.4616 26.8232 23.9842 28.9194Z"
-                        fill="white" />
-                      <path
-                        d="M20.6992 6.44341C20.6992 4.51138 19.1288 2.93945 17.1987 2.93945C16.7452 2.93945 16.3778 3.30735 16.3778 3.76113C16.3778 4.21491 16.7452 4.58281 17.1987 4.58281C18.2236 4.58281 19.0575 5.41752 19.0575 6.44341C19.0575 7.4693 18.2236 8.30402 17.1987 8.30402C16.6628 8.30402 16.1273 8.07077 15.766 7.6802C15.4571 7.34616 15.3049 6.92941 15.3375 6.50684C15.3724 6.05437 15.0343 5.6592 14.5824 5.62425C14.131 5.59007 13.7357 5.92773 13.7007 6.38009C13.6324 7.26443 13.938 8.12259 14.5612 8.79658C15.2376 9.52799 16.1989 9.94737 17.1987 9.94737C19.1289 9.94737 20.6992 8.37545 20.6992 6.44341Z"
-                        fill="white" />
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M17.1953 18.7073C17.0169 18.7073 16.8391 18.6444 16.6963 18.5194C16.4663 18.3181 11.0633 13.5064 11.0634 6.49684C11.0634 3.08627 13.8141 0.311523 17.1952 0.311523C20.5763 0.311523 23.3271 3.08627 23.3272 6.49673C23.3272 14.0269 17.8929 18.3652 17.6616 18.5462C17.524 18.6539 17.3594 18.7073 17.1953 18.7073ZM21.8053 6.49698C21.8053 3.93284 19.7373 1.84671 17.1952 1.84671C14.6531 1.84671 12.585 3.93284 12.585 6.49698C12.585 11.6317 15.949 15.5867 17.2181 16.8958C18.4919 15.6788 21.8053 11.9848 21.8053 6.49698Z"
-                        fill="white" />
-                    </svg>
-                    Trucking</h6>
-
-                  <p class="p-sm mt-4">Take the wheel of your international and domestic freight by bringing everything
-                    under
-                    one roof. As
-                    the control tower
-                    for your ground operations, we track your shipment milestones for the road ahead, from dispatch
-                    through delivery.</p>
-                </div>
-              </div>
-
-              <div class="card rounded-0 border-0">
-                <div class="card-body half-card-content text-white bg-gray">
-                  <h6 style="align-items: end;" class="card-title d-flex"><svg width="34" height="38"
-                      style="margin-right:1em" viewBox="0 0 34 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M31.9656 13.6272C30.78 11.348 29.0535 9.34274 26.9726 7.82807C26.6257 7.57556 26.1395 7.65233 25.887 7.99987C25.6346 8.34741 25.7115 8.83408 26.0586 9.0868C29.7465 11.7713 32.0273 16.0074 32.263 20.5367H24.7855C24.7469 18.6201 24.5659 16.7583 24.2452 14.9921C24.1685 14.5693 23.763 14.2888 23.3415 14.3658C22.9193 14.4427 22.6392 14.8478 22.716 15.2706C23.0203 16.9458 23.193 18.714 23.2313 20.5368H11.159C11.1979 18.6807 11.3762 16.8822 11.6908 15.1806C11.7689 14.7581 11.49 14.3521 11.0681 14.274C10.6457 14.1958 10.2406 14.475 10.1624 14.8975C9.83084 16.6915 9.64412 18.5852 9.60485 20.537H2.12719C2.37048 15.7788 4.8332 11.4134 8.82242 8.74444C9.17929 8.50573 9.27524 8.02249 9.03671 7.66519C8.79828 7.30789 8.31573 7.21183 7.95886 7.45054C3.32057 10.5538 0.551453 15.7368 0.551453 21.315C0.551453 30.5036 8.01782 37.979 17.1953 37.979C26.3727 37.979 33.8391 30.5036 33.8391 21.315C33.8389 18.6413 33.1911 15.983 31.9656 13.6272ZM23.5905 30.4395C24.9036 30.9865 26.1297 31.7055 27.2345 32.5832C25.4497 34.1789 23.2853 35.357 20.8953 35.9625C21.5737 35.1536 22.1929 34.1122 22.7326 32.8551C23.0546 32.1056 23.3406 31.296 23.5905 30.4395ZM17.1952 36.4225C18.6655 36.4225 20.1634 34.8982 21.3048 32.2404C21.6139 31.5206 21.8883 30.7408 22.1267 29.9124C20.5612 29.4325 18.9002 29.182 17.1952 29.182C15.4964 29.182 13.8337 29.4334 12.2645 29.9151C12.5027 30.7424 12.7768 31.5214 13.0855 32.2404C14.2269 34.8982 15.7248 36.4225 17.1952 36.4225ZM11.6575 32.855C12.1973 34.112 12.8165 35.1535 13.495 35.9624C11.1048 35.3568 8.94043 34.1787 7.15559 32.5829C8.25924 31.7075 9.48733 30.9901 10.8008 30.4432C11.0505 31.2983 11.3362 32.1066 11.6575 32.855ZM11.8834 28.4051C13.5773 27.8931 15.3679 27.626 17.1951 27.626C19.0289 27.626 20.8177 27.8918 22.5076 28.4018C22.9356 26.465 23.1846 24.3249 23.2314 22.093H11.1589C11.2058 24.3262 11.455 26.4675 11.8834 28.4051ZM2.12544 22.093H9.60466C9.65346 24.5056 9.92888 26.8259 10.4069 28.923C8.82638 29.5579 7.35406 30.4179 6.04369 31.4822C3.76158 28.9753 2.30905 25.6991 2.12544 22.093ZM23.9842 28.9194C25.5642 29.5542 27.0352 30.414 28.3474 31.4812C30.6289 28.9745 32.0813 25.6987 32.2649 22.0928H24.7857C24.7369 24.5041 24.4616 26.8232 23.9842 28.9194Z"
-                        fill="white" />
-                      <path
-                        d="M20.6992 6.44341C20.6992 4.51138 19.1288 2.93945 17.1987 2.93945C16.7452 2.93945 16.3778 3.30735 16.3778 3.76113C16.3778 4.21491 16.7452 4.58281 17.1987 4.58281C18.2236 4.58281 19.0575 5.41752 19.0575 6.44341C19.0575 7.4693 18.2236 8.30402 17.1987 8.30402C16.6628 8.30402 16.1273 8.07077 15.766 7.6802C15.4571 7.34616 15.3049 6.92941 15.3375 6.50684C15.3724 6.05437 15.0343 5.6592 14.5824 5.62425C14.131 5.59007 13.7357 5.92773 13.7007 6.38009C13.6324 7.26443 13.938 8.12259 14.5612 8.79658C15.2376 9.52799 16.1989 9.94737 17.1987 9.94737C19.1289 9.94737 20.6992 8.37545 20.6992 6.44341Z"
-                        fill="white" />
-                      <path fill-rule="evenodd" clip-rule="evenodd"
-                        d="M17.1953 18.7073C17.0169 18.7073 16.8391 18.6444 16.6963 18.5194C16.4663 18.3181 11.0633 13.5064 11.0634 6.49684C11.0634 3.08627 13.8141 0.311523 17.1952 0.311523C20.5763 0.311523 23.3271 3.08627 23.3272 6.49673C23.3272 14.0269 17.8929 18.3652 17.6616 18.5462C17.524 18.6539 17.3594 18.7073 17.1953 18.7073ZM21.8053 6.49698C21.8053 3.93284 19.7373 1.84671 17.1952 1.84671C14.6531 1.84671 12.585 3.93284 12.585 6.49698C12.585 11.6317 15.949 15.5867 17.2181 16.8958C18.4919 15.6788 21.8053 11.9848 21.8053 6.49698Z"
-                        fill="white" />
-                    </svg>
-                    Fulfillment</h6>
-
-                  <p class="p-sm mt-4">Flexport Fulfillment provides fast, reliable DTC and B2B fulfillment. We make it
-                    easy to
-                    sell in
-                    more
-                    places with our
-                    30+ eCommerce and retailer integrations. Plus, our Seller Portal gives you end-to-end visibility and
-                    control.</p>
-                </div>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
 
-
     </section>
 
     <!-- Best Shipping -->
-    <section class="container-fluid shipping-centered bg-yellow-brown">
+    <section class="container-fluid shipping-centered bg-yellow-brown d-sm-none d-lg-block">
       <div class="row">
         <div class="col-12" style="padding: 101px 630px 267px 670px">
           <h3 class="text-white text-center" style="font-weight: 600;">The Best Shipping Service<br>
@@ -277,12 +177,12 @@
       </div>
     </section>
 
-    <section class="container-fluid position-relative shipping-more">
+    <section class="container-fluid position-relative shipping-more d-sm-none d-lg-block">
       <!-- boxes -->
       <div class="container" style="margin-top:-26em">
         <div class="row">
 
-          <div class="col-3 boxes">
+          <div class="col-lg-3 boxes">
             <div class="card rounded-3">
               <div class="card-body">
                 <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -305,7 +205,7 @@
             </div>
           </div>
 
-          <div class="col-3 boxes">
+          <div class="col-lg-3 boxes">
             <div class="card rounded-3">
               <div class="card-body">
                 <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -328,7 +228,7 @@
             </div>
           </div>
 
-          <div class="col-3 boxes">
+          <div class="col-lg-3 boxes">
             <div class="card rounded-3">
               <div class="card-body">
                 <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -351,7 +251,117 @@
             </div>
           </div>
 
-          <div class="col-3 boxes">
+          <div class="col-lg-3 boxes">
+            <div class="card rounded-3">
+              <div class="card-body">
+                <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M41.7531 44.1835H8.37646V6.63477H41.7531V44.1835ZM12.5485 40.0114H37.581V10.8068H12.5485V40.0114ZM33.4089 14.9789H16.7206V19.151H33.4089V14.9789ZM16.7206 31.6672H29.2369V35.8393H16.7206V31.6672ZM33.4089 23.3231H16.7206V27.4952H33.4089V23.3231Z"
+                    fill="#997400" />
+                </svg>
+                <br><br>
+                <h4 class="timeline-subtitle text-dark-blue">Billing</h4>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.
+                </p>
+                <p class="learn-more">Learn More <svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M6.21662 15.2826L5.2334 14.2994L10.3046 9.22821L5.2334 4.15705L6.21662 3.17383L12.271 9.22821L6.21662 15.2826Z"
+                      fill="#997400" />
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Best Shipping Mobile -->
+    <section class="container-fluid position-relative shipping-more d-sm-block d-lg-none" style="margin-top:0em">
+      <div class="position-absolute rounded-0 bg-yellow-brown bg-rectangle-yellow-brown-small " style="height: 100vh;">
+      </div>
+      <!-- boxes -->
+      <div class="container">
+        <div class="row mt-5 mb-3">
+          <div class="col-12 mt-5 mb-5">
+            <h3 class="text-white text-center position-relative mt-5" style="font-weight: 600;">The Best Shipping
+              Service<br>
+              You Can Choose</h3>
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="col-sm-6 col-lg-3 boxes">
+            <div class="card rounded-3">
+              <div class="card-body">
+                <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M41.7531 44.1835H8.37646V6.63477H41.7531V44.1835ZM12.5485 40.0114H37.581V10.8068H12.5485V40.0114ZM33.4089 14.9789H16.7206V19.151H33.4089V14.9789ZM16.7206 31.6672H29.2369V35.8393H16.7206V31.6672ZM33.4089 23.3231H16.7206V27.4952H33.4089V23.3231Z"
+                    fill="#997400" />
+                </svg>
+                <br><br>
+                <h4 class="timeline-subtitle text-dark-blue">Getting Started</h4>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.
+                </p>
+                <p class="learn-more">Learn More <svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M6.21662 15.2826L5.2334 14.2994L10.3046 9.22821L5.2334 4.15705L6.21662 3.17383L12.271 9.22821L6.21662 15.2826Z"
+                      fill="#997400" />
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3 boxes">
+            <div class="card rounded-3">
+              <div class="card-body">
+                <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M41.7531 44.1835H8.37646V6.63477H41.7531V44.1835ZM12.5485 40.0114H37.581V10.8068H12.5485V40.0114ZM33.4089 14.9789H16.7206V19.151H33.4089V14.9789ZM16.7206 31.6672H29.2369V35.8393H16.7206V31.6672ZM33.4089 23.3231H16.7206V27.4952H33.4089V23.3231Z"
+                    fill="#997400" />
+                </svg>
+                <br><br>
+                <h4 class="timeline-subtitle text-dark-blue">How It Works</h4>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.
+                </p>
+                <p class="learn-more">Learn More <svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M6.21662 15.2826L5.2334 14.2994L10.3046 9.22821L5.2334 4.15705L6.21662 3.17383L12.271 9.22821L6.21662 15.2826Z"
+                      fill="#997400" />
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3 boxes">
+            <div class="card rounded-3">
+              <div class="card-body">
+                <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M41.7531 44.1835H8.37646V6.63477H41.7531V44.1835ZM12.5485 40.0114H37.581V10.8068H12.5485V40.0114ZM33.4089 14.9789H16.7206V19.151H33.4089V14.9789ZM16.7206 31.6672H29.2369V35.8393H16.7206V31.6672ZM33.4089 23.3231H16.7206V27.4952H33.4089V23.3231Z"
+                    fill="#997400" />
+                </svg>
+                <br><br>
+                <h4 class="timeline-subtitle text-dark-blue">My Shipping</h4>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat.
+                </p>
+                <p class="learn-more">Learn More <svg width="17" height="18" viewBox="0 0 17 18" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M6.21662 15.2826L5.2334 14.2994L10.3046 9.22821L5.2334 4.15705L6.21662 3.17383L12.271 9.22821L6.21662 15.2826Z"
+                      fill="#997400" />
+                  </svg>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-3 boxes">
             <div class="card rounded-3">
               <div class="card-body">
                 <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -377,10 +387,10 @@
     </section>
 
     <!-- Overview -->
-    <section class="container">
-      <div class="row" style="margin-top:13em">
-        <div class="col-6">
-          <h3 class="mtop-1-5em text-dark-blue" style="font-weight: 600;">Overview</h3>
+    <section class="container overview-1">
+      <div class="row mtop-8em">
+        <div class="col-sm-12 col-lg-6">
+          <h3 class="mtop-1-5em text-dark-blue" style="font-weight: 600;">Title Here</h3>
           <p class="mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
             consequat duis enim velit
             mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
@@ -398,7 +408,7 @@
             sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
           </p>
         </div>
-        <div class="col-6 position-relative" style="padding-left: 10em;">
+        <div class="col-sm-12 col-lg-6 position-relative mt-sm-5 mt-lg-0" style="padding-left: 10em;">
           <div class="square bg-yellow-brown position-absolute rounded-3">
           </div>
           <img src="Image Placeholder (18).png" alt="" class="position-absolute" style="left: 7em;top: -2em;">
@@ -406,16 +416,17 @@
       </div>
     </section>
 
-    <section class="container">
-      <div class="row" style="margin-top:3em">
-        <div class="col-6 position-relative" style="padding-left: 10em;">
-          <div class="square bg-yellow-brown position-absolute rounded-3" style="top: 10em;left: 8em;">
+    <section class="container overview-2">
+      <div class="row mtop-8em me-sm-3 me-lg-0 mt-0">
+        <div class="col-sm-12 col-lg-6 position-relative" style="padding-left: 10em;">
+          <div class="square bg-yellow-brown position-absolute rounded-3" style="left: 8em;">
           </div>
-          <img src="Image Placeholder (19).png" alt="" class="position-absolute" style="left: -6em;top: 9em;">
+          <img src="Image Placeholder (19).png" alt="" class="position-absolute" style="left: -6em">
         </div>
-        <div class="col-6">
-          <h3 class="mtop-6em text-dark-blue text-end" style="font-weight: 600;">Overview</h3>
-          <p class="mt-4 text-end">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+        <div class="col-sm-12 col-lg-6 mb-sm-4 mb-lg-0 overview-large">
+          <h3 class="mtop-6em text-dark-blue text-end" style="font-weight: 600;">Title Here</h3>
+          <p class="mt-4 text-end mb-sm-4 mb-lg-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit
             officia
             consequat duis enim velit
             mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
@@ -440,9 +451,9 @@
     <!-- Contact Showcase -->
     <section class="container-fluid text-white contact-showcase" style="margin-top:16em">
       <div class="row pt-lg-5">
-        <div class="col-8 contact-showcase-bg">
+        <div class="col-sm-12 order-sm-2 order-lg-1 col-lg-8 contact-showcase-bg">
         </div>
-        <div class="col-4">
+        <div class="col-sm-12 order-sm-1 order-lg-2 col-lg-4">
           <div class="d-flex flex-column pleft-2em">
             <h5 class="mt-5em">Provide quick<br>
               tracking your cargo</h5>
@@ -458,7 +469,7 @@
     <section class="container trusted" style="margin-top:5em">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-sm-12 col-lg-6">
             <h3 class="text-dark-blue " style="font-weight: 600;line-height: 64px;">Trusted by International <br>
               Companies And Partners</h3>
             <br>
@@ -468,18 +479,19 @@
               mollit. Exercitation veniam</p>
 
           </div>
-          <div class="col-6">
+          <div class="col-sm-12 col-lg-6">
             <img src="Partner.png" alt="">
           </div>
         </div>
       </div>
     </section>
 
+
     <!-- Overview -->
-    <section class="container">
-      <div class="row" style="margin-top:17em">
-        <div class="col-6">
-          <h3 class="mtop-1-5em text-dark-blue" style="font-weight: 600;">Overview</h3>
+    <section class="container overview-1">
+      <div class="row mtop-8em">
+        <div class="col-sm-12 col-lg-6">
+          <h3 class="mtop-1-5em text-dark-blue" style="font-weight: 600;">Title Here</h3>
           <p class="mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
             consequat duis enim velit
             mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
@@ -497,7 +509,7 @@
             sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
           </p>
         </div>
-        <div class="col-6 position-relative" style="padding-left: 10em;">
+        <div class="col-sm-12 col-lg-6 position-relative mt-sm-5 mt-lg-0" style="padding-left: 10em;">
           <div class="square bg-yellow-brown position-absolute rounded-3">
           </div>
           <img src="Image Placeholder (20).png" alt="" class="position-absolute" style="left: 7em;top: -2em;">
@@ -512,7 +524,7 @@
           <div class="d-flex flex-wrap services-shadow shadow">
 
 
-            <div class="card-item d-flex flex-nowrap order-sm-0 order-md-0">
+            <div class="card-item d-flex flex-nowrap order-sm-0 order-lg-0">
               <img src="Mask.jpg" alt="">
               <div class="d-flex flex-column card-image-details p-3em">
                 <svg width="42" height="44" viewBox="0 0 42 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -532,7 +544,7 @@
               </div>
             </div>
 
-            <div class="card-item d-flex flex-nowrap order-sm-1 order-md-4">
+            <div class="card-item d-flex flex-nowrap order-sm-1 order-lg-4">
               <div class="d-flex flex-column card-image-details p-3em">
                 <svg width="43" height="44" viewBox="0 0 43 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd"
@@ -547,7 +559,7 @@
               <img src="Mask (2).png" alt="">
             </div>
 
-            <div class="card-item d-flex flex-nowrap order-sm-2 order-sm-1">
+            <div class="card-item d-flex flex-nowrap order-sm-3 order-lg-1">
               <img src="Mask (1).png" alt="">
               <div class="d-flex flex-column card-image-details p-3em">
                 <svg width="31" height="44" viewBox="0 0 31 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -575,7 +587,7 @@
               </div>
             </div>
 
-            <div class="card-item d-flex flex-nowrap order-sm-5">
+            <div class="card-item d-flex flex-nowrap order-sm-5 order-lg-5">
               <div class="d-flex flex-column card-image-details p-3em">
                 <svg width="42" height="44" viewBox="0 0 42 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd"
@@ -609,7 +621,7 @@
     <!-- QA -->
     <section class="container qa">
       <div class="row">
-        <div class="col-6">
+        <div class="col-sm-12 col-lg-6">
           <h3 class="timeline-title text-dark-blue">Air Freight</h3>
           <br>
           <p class="text-dark-blue">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -698,7 +710,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-sm-12 col-lg-6 mt-sm-5 mt-lg-0">
           <h3 class="timeline-title text-dark-blue">Ocean Freight</h3>
           <br>
           <p class="text-dark-blue">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -789,8 +801,8 @@
         </div>
 
       </div>
-      <div class="row " style="margin-top:15em">
-        <div class="col-6">
+      <div class="row">
+        <div class="col-sm-12 col-lg-6">
           <h3 class="timeline-title text-dark-blue">Reil Freight</h3>
           <br>
           <p class="text-dark-blue">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -879,7 +891,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-sm-12 col-lg-6 mt-sm-5 mt-lg-0">
           <h3 class="timeline-title text-dark-blue">Reil Freight</h3>
           <br>
           <p class="text-dark-blue">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -972,12 +984,11 @@
       </div>
 
     </section>
-
     <!-- Contact -->
     <section class="container-fluid contact">
       <div class="container">
         <div class="row">
-          <div class="col-5 text-yellow d-flex flex-column ptop-41em">
+          <div class="col-sm-12 col-lg-5 text-yellow d-flex flex-column ptop-41em order-sm-2 order-lg-1">
             <h2 class="text-start">How much will <br>
               i earn?</h2>
             <br>
@@ -988,7 +999,7 @@
             <h6 class="text-start mb-4 fw-semibold">Call us for consultation</h6>
             <h3 class="text-start">+8 (495) 989 20 11</h3>
           </div>
-          <div class="col-6">
+          <div class="col-sm-12 col-lg-6 order-sm-1 order-lg-2">
             <form action="" class="contact-form">
               <div class="card rounded-0 w-40em">
                 <div class="card-body contact-body">
@@ -1038,7 +1049,7 @@
     <section class="container-fluid footer">
       <div class="container text-white">
         <div class="row">
-          <div class="col-4">
+          <div class="col-sm-12 col-lg-4">
             <div class="d-flex flex-column">
               <img src="INFI-LINK LOGO-color 1 1.png" alt="" class="mb-5 footer-logo">
 
@@ -1094,7 +1105,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-sm-12 col-lg-4">
             <div class="d-flex flex-column footer-list">
               <div>
                 <svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1147,10 +1158,11 @@
             </div>
 
           </div>
-          <div class="col-4">
-            <strong>Subscribe</strong>
+          <div class="col-sm-12 col-lg-4 text-sm-center text-lg-start footer-subscribe">
+            <strong class="text-sm-center text-lg-start">Subscribe</strong>
             <br><br>
-            <p style="color:#E1E1E1">Curabitur quis porttitor augue, et posuere ligula. Nunc sagittis vestibulum</p>
+            <p style="color:#E1E1E1" class="text-sm-center text-lg-start">Curabitur quis porttitor augue, et posuere
+              ligula. Nunc sagittis vestibulum</p>
             <br><br>
             <div class="input-group mb-3">
               <input type="text" class="form-control rounded-0" placeholder="Enter Your Email"
@@ -1161,7 +1173,7 @@
           </div>
         </div>
         <div class="row footer-card">
-          <div class="col-4 p-0">
+          <div class="col-sm-12 col-lg-4 p-0">
             <div class="d-flex footer-item-1">
               <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -1178,7 +1190,7 @@
 
             </div>
           </div>
-          <div class="col-4 p-0">
+          <div class="col-sm-12 col-lg-4 p-0">
 
             <div class="d-flex footer-item-2"><svg width="47" height="52" viewBox="0 0 47 52" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -1198,7 +1210,8 @@
               </div>
             </div>
           </div>
-          <div class="col-4 p-0">
+
+          <div class="col-sm-12 col-lg-4 p-0">
             <div class="d-flex footer-item-1">
 
               <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">

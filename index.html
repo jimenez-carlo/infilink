@@ -18,7 +18,7 @@
   </head>
 
   <body>
-    <section class="container-fluid test mbottom-22em">
+    <section class="container-fluid bg-main">
       <!-- logo login & signup -->
       <div class="container">
         <nav class="navbar navbar-expand-lg bg-light">
@@ -48,7 +48,7 @@
         </nav>
 
         <!-- menu -->
-        <nav class="navbar navbar-expand-lg bg-light top-menu">
+        <nav class="navbar navbar-expand-lg bg-light top-menu d-sm-none d-lg-block">
           <div class="container-fluid">
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -96,7 +96,7 @@
         <!-- Main-1 -->
         <div class="content-1 container-sm">
           <div class="row">
-            <div class="col-6">
+            <div class="col-sm-12 col-lg-6">
 
               <h1 class="text-white">Your end-to-end supply chain, all in one platform</h1>
               <p class="text-white pt-3">Flexport is the platform that coordinates global logistics from factory to
@@ -118,9 +118,9 @@
                 </ul>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-12 col-lg-6">
               <div class="card r-20 card-location">
-                <div class="card-body p-24">
+                <div class="card-body card-body-location">
                   <div class="d-flex justify-content-between">
                     <h6 class="card-title sf-pro" style="font-weight: 500">Success delivery</h6>
                     <a href="#" class="text-decoration-none text-dark">View all</a>
@@ -154,7 +154,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 d-flex justify-content-center half-card p-0 mtop-5em">
+            <div class="col-12 d-flex flex-sm-column flex-lg-row justify-content-center half-card p-0 mtop-5em">
               <div class="card rounded-0 border-0">
                 <div class="card-body half-card-content text-white bg-warning">
                   <h6 style="align-items: end;" class="card-title d-flex "><svg width="34" height="38"
@@ -261,7 +261,7 @@
     </section>
 
     <!-- Brands -->
-    <section class="container-fluid-sm text-center">
+    <section class="container-fluid-sm text-center brands">
       <p class="p-30 m-0">More than 10,000 clients trust Flexport with their supply chain</p>
       <img src="brands.jpg" alt="" class="img-fluid img-brand">
     </section>
@@ -274,9 +274,9 @@
     <!-- Plane Showcase -->
     <section class="container-fluid-sm position-relative">
       <img src="infi-bg.png" alt="" class="img-fluid position-absolute bg-logo">
-      <div class="container-fluid" style="padding: 0px 14.5em;">
+      <div class="container-fluid plane-container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-sm-12 col-lg-6 order-sm-2 order-lg-1">
             <div class="mini-plane-desc">
               <h3 class="text-warning">Digitize freight forwarding for visibility and control</h3>
               <p class="mt-4 mb-4">Whether you’re shipping for the first time or moving thousands of TEUs a year,
@@ -293,8 +293,8 @@
                 clearance and delivery – along with an expert team supporting you every step of the way.</p>
             </div>
 
-            <div class="btn-group btn-primary btn-lg ms-4 mt-5">
-              <button type="button" class="btn btn-warning dropdown-toggle p-md btn-cta" data-bs-toggle="dropdown"
+            <div class="btn-group btn-primary btn-lg ms-lg-4 mt-sm-4 mt-lg-5">
+              <button type="button" class="btn btn-warning dropdown-toggle p-md btn-cta " data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Appointment
               </button>
@@ -305,7 +305,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-sm-12 col-lg-6 order-sm-1 order-lg-2">
             <img src="airlplane.png" alt="" class="mini-plane">
           </div>
         </div>
@@ -317,10 +317,10 @@
       <img src="#" alt="" class="img-fluid position-absolute bg-logo">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-6">
+          <div class="col-sm-12 col-lg-6">
             <img src="truck.png" class="position-absolute mini-truck" alt="">
           </div>
-          <div class="col-6 ">
+          <div class="col-sm-12 col-lg-6 ">
             <div class="mini-truck-desc">
               <h3 class="text-warning mb-4">Take flight with <br>flexible speed</h3>
               <p>Expedite your shipments with speed and precision.
@@ -393,7 +393,7 @@
     </section>
 
     <!-- Logo Showcase -->
-    <section class="container-fluid position-relative logo-showcase">
+    <section class="container-fluid position-relative logo-showcase d-sm-none d-lg-block ">
       <img src="trucks.jpg" alt="" class="position-absolute logo-showcase-1">
       <img src="logo2.png" alt="" class="position-absolute logo-showcase-2">
     </section>
@@ -405,7 +405,7 @@
           <div class="d-flex flex-wrap services-shadow shadow">
 
 
-            <div class="card-item d-flex flex-nowrap order-sm-0 order-md-0">
+            <div class="card-item d-flex flex-nowrap order-sm-0 order-lg-0">
               <img src="Mask.jpg" alt="">
               <div class="d-flex flex-column card-image-details p-3em">
                 <svg width="42" height="44" viewBox="0 0 42 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -425,7 +425,7 @@
               </div>
             </div>
 
-            <div class="card-item d-flex flex-nowrap order-sm-1 order-md-4">
+            <div class="card-item d-flex flex-nowrap order-sm-1 order-lg-4">
               <div class="d-flex flex-column card-image-details p-3em">
                 <svg width="43" height="44" viewBox="0 0 43 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd"
@@ -440,7 +440,7 @@
               <img src="Mask (2).png" alt="">
             </div>
 
-            <div class="card-item d-flex flex-nowrap order-sm-2 order-sm-1">
+            <div class="card-item d-flex flex-nowrap order-sm-3 order-lg-1">
               <img src="Mask (1).png" alt="">
               <div class="d-flex flex-column card-image-details p-3em">
                 <svg width="31" height="44" viewBox="0 0 31 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -468,7 +468,7 @@
               </div>
             </div>
 
-            <div class="card-item d-flex flex-nowrap order-sm-5">
+            <div class="card-item d-flex flex-nowrap order-sm-5 order-lg-5">
               <div class="d-flex flex-column card-image-details p-3em">
                 <svg width="42" height="44" viewBox="0 0 42 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd"
@@ -502,9 +502,9 @@
     <!-- Contact Showcase -->
     <section class="container-fluid text-white contact-showcase">
       <div class="row pt-lg-5">
-        <div class="col-8 contact-showcase-bg">
+        <div class="col-sm-12 order-sm-2 order-lg-1 col-lg-8 contact-showcase-bg">
         </div>
-        <div class="col-4">
+        <div class="col-sm-12 order-sm-1 order-lg-2 col-lg-4">
           <div class="d-flex flex-column pleft-2em">
             <h5 class="mt-5em">Provide quick<br>
               tracking your cargo</h5>
@@ -521,8 +521,8 @@
       <h2 class="text-center blog-title">Our latest articles<br>
         daily <span class="text-warning">update</span></h2>
 
-      <div class="row">
-        <div class="col-6">
+      <div class="row blog-main-row">
+        <div class="col-sm-12 col-lg-6">
           <div class="card rounded-0 border-0">
             <img src="Mask (3).png" class="card-img-top rounded-0 blog-main-img" alt="...">
             <div class="card-body pt-0 ps-0 mt-2">
@@ -540,14 +540,14 @@
 
           </div>
         </div>
-        <div class="col-6" style="padding-left: 3em;">
-          <div class="d-flex flex-column">
+        <div class="col-sm-12 col-lg-6 row-left row-left">
+          <div class="d-flex flex-column mt-sm-5 mt-lg-0">
             <div class="card mb-3 border-0 blog-card">
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-sm-5 col-lg-4">
                   <img src="Mask (4).jpg" class="img-fluid border-0 rounded-0 blog-img" alt="...">
                 </div>
-                <div class="col-md-8">
+                <div class="col-sm-7 col-lg-8">
                   <div class="card-body pt-0">
                     <p class="card-text"><small class="text-muted p-xsm"><i class="fa fa-calendar"></i> 28 Jan 2021
                         &nbsp; <i class="fa fa-folder"></i> cargo</small></p>
@@ -559,10 +559,10 @@
             </div>
             <div class="card mb-3 border-0 blog-card">
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-sm-5 col-lg-4">
                   <img src="Mask (2).jpg" class="img-fluid border-0 rounded-0 blog-img" alt="...">
                 </div>
-                <div class="col-md-8">
+                <div class="col-sm-7 col-lg-8">
                   <div class="card-body pt-0">
                     <p class="card-text"><small class="text-muted p-xsm"><i class="fa fa-calendar"></i> 28 Jan 2021
                         &nbsp; <i class="fa fa-folder"></i> cargo</small></p>
@@ -574,10 +574,10 @@
             </div>
             <div class="card mb-3 border-0 blog-card">
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-sm-5 col-lg-4">
                   <img src="Mask (3).jpg" class="img-fluid border-0 rounded-0 blog-img" alt="...">
                 </div>
-                <div class="col-md-8">
+                <div class="col-sm-7 col-lg-8">
                   <div class="card-body pt-0">
                     <p class="card-text"><small class="text-muted p-xsm"><i class="fa fa-calendar"></i> 28 Jan 2021
                         &nbsp; <i class="fa fa-folder"></i> cargo</small></p>
@@ -593,23 +593,23 @@
     </section>
 
     <!-- Projects -->
-    <section class="container-fluid">
+    <section class="container-fluid ">
       <div class="row">
         <div class="col-12 projects">
           <div class="d-flex g-160">
 
             <div class="item position-relative">
-              <img src="Mask (6).png" alt="position-absolute project-img-left">
+              <img src="Mask (6).png" class="project-item-1" alt="position-absolute project-img-left">
             </div>
 
             <div class="item position-relative">
-              <img src="Mask9.jpg" alt="position-absolute project-img-center">
+              <img src="Mask9.jpg" class="project-item-2" alt="position-absolute project-img-center">
               <div class="position-absolute d-flex bg-yellow flex-column project-desc">
                 <h6 class="text-white">Provide quick <br>
                   tracking your cargo</h6>
-                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra</p>
-                <p class="p-xxsm text-white">All Services <svg width="11" height="7" viewBox="0 0 11 7" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+                <p class="project-p">Class aptent taciti sociosqu ad litora torquent per conubia nostra</p>
+                <p class="p-xxsm project-p text-white">All Services <svg width="11" height="7" viewBox="0 0 11 7"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M7.33594 2.5625V1.48438C7.33594 0.992188 7.94531 0.734375 8.29688 1.08594L10.3125 3.125C10.5469 3.33594 10.5469 3.6875 10.3125 3.89844L8.29688 5.9375C7.94531 6.28906 7.33594 6.03125 7.33594 5.53906V4.4375H0.28125C0.117188 4.4375 0 4.32031 0 4.15625V2.84375C0 2.70312 0.117188 2.5625 0.28125 2.5625H7.33594Z"
                       fill="white" />
@@ -619,7 +619,7 @@
             </div>
 
             <div class="item position-relative">
-              <img src="Mask (7).png" alt="position-absolute project-img-right">
+              <img src="Mask (7).png" class="project-item-3" alt="position-absolute project-img-right">
             </div>
 
 
@@ -632,7 +632,7 @@
     <section class="container-fluid contact">
       <div class="container">
         <div class="row">
-          <div class="col-5 text-yellow d-flex flex-column ptop-41em">
+          <div class="col-sm-12 col-lg-5 text-yellow d-flex flex-column ptop-41em order-sm-2 order-lg-1">
             <h2 class="text-start">How much will <br>
               i earn?</h2>
             <br>
@@ -643,7 +643,7 @@
             <h6 class="text-start mb-4 fw-semibold">Call us for consultation</h6>
             <h3 class="text-start">+8 (495) 989 20 11</h3>
           </div>
-          <div class="col-6">
+          <div class="col-sm-12 col-lg-6 order-sm-1 order-lg-2">
             <form action="" class="contact-form">
               <div class="card rounded-0 w-40em">
                 <div class="card-body contact-body">
@@ -693,7 +693,7 @@
     <section class="container-fluid footer">
       <div class="container text-white">
         <div class="row">
-          <div class="col-4">
+          <div class="col-sm-12 col-lg-4">
             <div class="d-flex flex-column">
               <img src="INFI-LINK LOGO-color 1 1.png" alt="" class="mb-5 footer-logo">
 
@@ -749,7 +749,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-sm-12 col-lg-4">
             <div class="d-flex flex-column footer-list">
               <div>
                 <svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -802,10 +802,11 @@
             </div>
 
           </div>
-          <div class="col-4">
-            <strong>Subscribe</strong>
+          <div class="col-sm-12 col-lg-4 text-sm-center text-lg-start footer-subscribe">
+            <strong class="text-sm-center text-lg-start">Subscribe</strong>
             <br><br>
-            <p style="color:#E1E1E1">Curabitur quis porttitor augue, et posuere ligula. Nunc sagittis vestibulum</p>
+            <p style="color:#E1E1E1" class="text-sm-center text-lg-start">Curabitur quis porttitor augue, et posuere
+              ligula. Nunc sagittis vestibulum</p>
             <br><br>
             <div class="input-group mb-3">
               <input type="text" class="form-control rounded-0" placeholder="Enter Your Email"
@@ -816,7 +817,7 @@
           </div>
         </div>
         <div class="row footer-card">
-          <div class="col-4 p-0">
+          <div class="col-sm-12 col-lg-4 p-0">
             <div class="d-flex footer-item-1">
               <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -833,7 +834,7 @@
 
             </div>
           </div>
-          <div class="col-4 p-0">
+          <div class="col-sm-12 col-lg-4 p-0">
 
             <div class="d-flex footer-item-2"><svg width="47" height="52" viewBox="0 0 47 52" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -853,7 +854,8 @@
               </div>
             </div>
           </div>
-          <div class="col-4 p-0">
+
+          <div class="col-sm-12 col-lg-4 p-0">
             <div class="d-flex footer-item-1">
 
               <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
