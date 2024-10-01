@@ -18,10 +18,10 @@
   </head>
 
   <body>
-    <section class="container-fluid bg-buyers">
+    <section class="container-fluid bg-base bg-buyers">
       <!-- logo login & signup -->
       <div class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img src="logo.png" alt="Bootstrap" width="175" height="51">
@@ -30,6 +30,7 @@
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
               aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
+
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
@@ -48,13 +49,14 @@
         </nav>
 
         <!-- menu -->
-        <nav class="navbar navbar-expand-lg bg-light top-menu d-sm-none d-lg-block">
+        <nav class="navbar navbar-expand-lg top-menu d-block d-lg-block">
           <div class="container-fluid">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false"
               aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
+
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white top-menu-ul">
@@ -98,7 +100,7 @@
         <!-- Main-1 -->
         <div class="content-1 container-sm">
           <div class="row">
-            <div class="col-sm-12 col-lg-6">
+            <div class="col-12 col-lg-6">
 
               <h1 class="text-white">Buyer's<br> Consolidation</h1>
               <p class="text-white pt-3">Flexport is the platform that coordinates global logistics from factory to
@@ -106,7 +108,7 @@
                 anywhere, sell everywhere and grow faster.
               </p>
 
-              <div class="btn-group btn-primary btn-lg d-sm-block d-lg-none">
+              <div class="btn-group btn-primary btn-lg d-block d-lg-none">
                 <button type="button" class="btn btn-warning dropdown-toggle p-md btn-cta" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Consultation
@@ -119,7 +121,7 @@
               </div>
             </div>
 
-            <div class="col-sm-12 col-lg-6">
+            <div class="col-12 col-lg-6">
               <div class="card r-20 card-location rounded-0 bg-dark-gray">
                 <div class="card-body card-form-appointment">
                   <p class="p-36 text-white">Make An Appoitment</p>
@@ -143,11 +145,11 @@
                       </div>
                     </div>
                     <div class="row mb-3 mtop-26">
-                      <div class="col-sm-12 col-lg-6">
+                      <div class="col-12 col-lg-6">
                         <input type="text" class="form-control rounded-0  bg-transparent" placeholder="Date"
                           aria-label="Date">
                       </div>
-                      <div class="col-sm-12 col-lg-6">
+                      <div class="col-12 col-lg-6">
                         <button type="button"
                           class="btn btn-warning bg-yellow-brown text-white border-yellow-brown btn-submit-request">
                           Submit Request
@@ -168,9 +170,9 @@
 
 
     <!-- Overview -->
-    <section class="container overview-1">
+    <section class="container overview-1 extend">
       <div class="row mtop-8em">
-        <div class="col-sm-12 col-lg-6">
+        <div class="col-12 col-lg-6">
           <h3 class="mtop-1-5em text-dark-blue" style="font-weight: 600;">Title Here</h3>
           <p class="mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
             consequat duis enim velit
@@ -189,7 +191,7 @@
             sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
           </p>
         </div>
-        <div class="col-sm-12 col-lg-6 position-relative mt-sm-5 mt-lg-0" style="padding-left: 10em;">
+        <div class="col-12 col-lg-6 position-relative mt-5 mt-lg-0" style="padding-left: 10em;">
           <div class="square bg-yellow-brown position-absolute rounded-3">
           </div>
           <img src="Image Placeholder (25).png" alt="" class="position-absolute" style="left: 7em;top: -2em;">
@@ -198,7 +200,7 @@
     </section>
 
     <!-- Best Shipping -->
-    <section class="container-fluid shipping-centered bg-yellow-brown d-sm-none d-lg-block">
+    <section class="container-fluid shipping-centered bg-yellow-brown d-none d-lg-block">
       <div class="row">
         <div class="col-12" style="padding: 101px 630px 267px 670px">
           <h3 class="text-white text-center" style="font-weight: 600;">The Best Shipping Service<br>
@@ -208,7 +210,7 @@
       </div>
     </section>
 
-    <section class="container-fluid position-relative shipping-more d-sm-none d-lg-block">
+    <section class="container-fluid position-relative shipping-more d-none d-lg-block">
       <!-- boxes -->
       <div class="container" style="margin-top:-26em">
         <div class="row">
@@ -308,9 +310,9 @@
     </section>
 
     <!-- Best Shipping Mobile -->
-    <section class="container-fluid position-relative shipping-more d-sm-block d-lg-none"
+    <section class="container-fluid position-relative shipping-more d-block d-lg-none"
       style="margin-top:16em;margin-bottom: 4em;">
-      <div class="position-absolute rounded-0 bg-yellow-brown bg-rectangle-yellow-brown-small " style="height: 100vh;">
+      <div class="position-absolute rounded-0 bg-yellow-brown bg-rectangle-yellow-brown-small " style="height: 138vh;">
       </div>
       <!-- boxes -->
       <div class="container">
@@ -324,7 +326,7 @@
         </div>
         <div class="row">
 
-          <div class="col-sm-6 col-lg-3 boxes">
+          <div class="col-6 col-lg-3 boxes">
             <div class="card rounded-3">
               <div class="card-body">
                 <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -347,7 +349,7 @@
             </div>
           </div>
 
-          <div class="col-sm-6 col-lg-3 boxes">
+          <div class="col-6 col-lg-3 boxes">
             <div class="card rounded-3">
               <div class="card-body">
                 <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -370,7 +372,7 @@
             </div>
           </div>
 
-          <div class="col-sm-6 col-lg-3 boxes">
+          <div class="col-6 col-lg-3 boxes">
             <div class="card rounded-3">
               <div class="card-body">
                 <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -393,7 +395,7 @@
             </div>
           </div>
 
-          <div class="col-sm-6 col-lg-3 boxes">
+          <div class="col-6 col-lg-3 boxes">
             <div class="card rounded-3">
               <div class="card-body">
                 <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -418,8 +420,8 @@
         </div>
     </section>
 
-
-    <section class="container-fluid d-sm-block d-lg-none" style="    height: 230vh;
+    <!-- 230 -->
+    <section class="container-fluid d-block d-lg-none" style="    height: 320vh;
     margin-top: 4em;
     margin-left: -1em;
     margin-bottom: 4em;
@@ -429,7 +431,7 @@
 
           <div class="d-flex flex-column">
             <img src="aerial-top-view-of-industrial-cargo-container-ship-JMSGDK9 (1).png" class="position-static" alt=""
-              style="width: 960px; height: auto">
+              style="width: 115%; height: auto">
             <h3 class="text-yellow-brown" style="margin-top: 1em;margin-left: 2em;">Excellent company<br>
               quality services</h3>
             <p class="mt-4" style="margin-top: 1em;margin-left: 6em;">Donec lacinia purus
@@ -459,7 +461,7 @@
 
           <div class="d-flex flex-column">
             <img src="aerial-view-of-general-cargo-ship-in-blue-sea-view-VWBNRQ7 (1).png" class="position-static" alt=""
-              style="width: 960px; height: auto;margin-left: -6em;">
+              style="width: 115%; height: auto;margin-left: -6em;">
             <h3 class="text-yellow-brown" style="margin-top: 1em;margin-left: 2em;">Rolso transportation
               <br>company
             </h3>
@@ -469,7 +471,7 @@
             <div class="d-flex" style="    width: 50em;margin-left:2em">
               <div class="card mb-3 mini-side-card" style="margin-right: 2em;">
                 <div class="row g-0">
-                  <div class="col-md-4 bg-yellow-brown d-flex align-items-center justify-content-center">
+                  <div class="col-4 bg-yellow-brown d-flex align-items-center justify-content-center">
                     <svg width="72" height="67" viewBox="0 0 72 67" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M58.6644 42.3735L49.7195 50.632L45.3996 45.9091C44.8836 45.3414 44.0096 45.3043 43.4471 45.8251C42.8851 46.3458 42.8478 47.228 43.3643 47.7957L48.6259 53.5529C48.8925 53.8368 49.2625 53.9989 49.6503 54C49.997 53.9956 50.3307 53.8668 50.5919 53.6365L60.5471 44.4276C60.8208 44.1793 60.9836 43.8305 60.9988 43.4598C61.0144 43.0892 60.8819 42.7278 60.6304 42.4571C60.3816 42.1814 60.0338 42.0171 59.6644 42.0013C59.2956 41.9854 58.9353 42.1197 58.6644 42.3735Z"
@@ -483,7 +485,7 @@
                     </svg>
 
                   </div>
-                  <div class="col-md-8">
+                  <div class="col-8">
                     <div class="card-body shadow">
                       <h3 class="text-yellow-brown">1255+</h3>
                       <p class="card-text">Delivered packeges</p>
@@ -493,7 +495,7 @@
               </div>
               <div class="card mb-3 mini-side-card">
                 <div class="row g-0">
-                  <div class="col-md-4 bg-yellow-brown d-flex align-items-center justify-content-center">
+                  <div class="col-4 bg-yellow-brown d-flex align-items-center justify-content-center">
                     <svg width="63" height="67" viewBox="0 0 63 67" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M6.43373 36.1304C6.53276 35.6857 6.83757 35.3142 7.25523 35.1285L18.613 30.3031C18.9609 30.1576 19.352 30.1521 19.7033 30.2888L31.5003 35.0441L43.2973 30.1058C43.6519 29.9647 44.0469 29.9647 44.4015 30.1058L55.7454 34.9449C56.1663 35.1263 56.4728 35.4999 56.5669 35.9469L62.9679 65.0829C63.0769 65.5872 62.9038 66.1108 62.5149 66.4514C62.126 66.7898 61.5816 66.8874 61.0987 66.7055L47.6305 61.711L31.9108 66.409C31.6524 66.4845 31.3786 66.4895 31.118 66.4233L15.3839 62.0351L1.90192 66.9172C1.41511 67.0908 0.871872 66.9872 0.483524 66.6471C0.0951767 66.307 -0.0774231 65.784 0.0326653 65.2802L6.43373 36.1304ZM42.6738 33.4215L32.9165 37.499V63.1638L46.1153 59.2132L42.6738 33.4215ZM20.397 33.6045L30.0841 37.5133V63.2063L16.9982 59.5378L20.397 33.6045ZM53.9607 37.2592L45.577 33.6751L48.9759 59.1994L59.6543 63.1638L53.9607 37.2592ZM17.5082 33.8305L14.152 59.4673L3.34633 63.3755L9.0393 37.4427L17.5082 33.8305Z"
@@ -507,7 +509,7 @@
                     </svg>
 
                   </div>
-                  <div class="col-md-8">
+                  <div class="col-8">
                     <div class="card-body shadow ">
                       <h3 class="text-yellow-brown text-nowrap">50years</h3>
                       <p class="card-text">Total warehouse area</p>
@@ -529,15 +531,15 @@
 
 
     <!-- Truck Showcase -->
-    <section class="container-fluid-sm position-sm-static position-lg-relative truck-shcase d-sm-none   d-lg-block">
+    <section class="container-fluid-sm position-static position-lg-relative truck-shcase d-none   d-lg-block">
       <img src="#" alt="" class="img-fluid position-absolute bg-logo">
       <div class="container-fluid ">
         <div class="row">
-          <div class="col-sm-12 col-lg-6">
+          <div class="col-12 col-lg-6">
             <img src="aerial-top-view-of-industrial-cargo-container-ship-JMSGDK9 (1).png" class="position-absolute"
               alt="">
           </div>
-          <div class="col-sm-12 col-lg-6" style="z-index: 2;">
+          <div class="col-12 col-lg-6" style="z-index: 2;">
             <div class="mini-plane-desc" style="margin-top: 13.3em;margin-left: 2.5em;">
               <h3 class="text-yellow-brown">Excellent company<br>
                 quality services</h3>
@@ -566,10 +568,10 @@
     </section>
 
     <!-- Plane Showcase -->
-    <section class="container-fluid-sm position-sm-static position-lg-relative d-sm-none d-lg-block">
+    <section class="container-fluid-sm position-static position-lg-relative d-none d-lg-block">
       <div class="container-fluid plane-container-fluid">
         <div class="row">
-          <div class="col-sm-12 col-lg-6">
+          <div class="col-12 col-lg-6">
             <div class="mini-truck-desc" style="margin-top:27em">
               <h3 class="text-yellow-brown mb-4">Rolso transportation
                 <br>company
@@ -582,7 +584,7 @@
     position: absolute;">
                 <div class="card mb-3 mini-side-card" style="margin-right: 3em;">
                   <div class="row g-0">
-                    <div class="col-md-4 bg-yellow-brown d-flex align-items-center justify-content-center">
+                    <div class="col-4 bg-yellow-brown d-flex align-items-center justify-content-center">
                       <svg width="72" height="67" viewBox="0 0 72 67" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                           d="M58.6644 42.3735L49.7195 50.632L45.3996 45.9091C44.8836 45.3414 44.0096 45.3043 43.4471 45.8251C42.8851 46.3458 42.8478 47.228 43.3643 47.7957L48.6259 53.5529C48.8925 53.8368 49.2625 53.9989 49.6503 54C49.997 53.9956 50.3307 53.8668 50.5919 53.6365L60.5471 44.4276C60.8208 44.1793 60.9836 43.8305 60.9988 43.4598C61.0144 43.0892 60.8819 42.7278 60.6304 42.4571C60.3816 42.1814 60.0338 42.0171 59.6644 42.0013C59.2956 41.9854 58.9353 42.1197 58.6644 42.3735Z"
@@ -596,7 +598,7 @@
                       </svg>
 
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-8">
                       <div class="card-body shadow">
                         <h3 class="text-yellow-brown">1255+</h3>
                         <p class="card-text">Delivered packeges</p>
@@ -606,7 +608,7 @@
                 </div>
                 <div class="card mb-3 mini-side-card">
                   <div class="row g-0">
-                    <div class="col-md-4 bg-yellow-brown d-flex align-items-center justify-content-center">
+                    <div class="col-4 bg-yellow-brown d-flex align-items-center justify-content-center">
                       <svg width="63" height="67" viewBox="0 0 63 67" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                           d="M6.43373 36.1304C6.53276 35.6857 6.83757 35.3142 7.25523 35.1285L18.613 30.3031C18.9609 30.1576 19.352 30.1521 19.7033 30.2888L31.5003 35.0441L43.2973 30.1058C43.6519 29.9647 44.0469 29.9647 44.4015 30.1058L55.7454 34.9449C56.1663 35.1263 56.4728 35.4999 56.5669 35.9469L62.9679 65.0829C63.0769 65.5872 62.9038 66.1108 62.5149 66.4514C62.126 66.7898 61.5816 66.8874 61.0987 66.7055L47.6305 61.711L31.9108 66.409C31.6524 66.4845 31.3786 66.4895 31.118 66.4233L15.3839 62.0351L1.90192 66.9172C1.41511 67.0908 0.871872 66.9872 0.483524 66.6471C0.0951767 66.307 -0.0774231 65.784 0.0326653 65.2802L6.43373 36.1304ZM42.6738 33.4215L32.9165 37.499V63.1638L46.1153 59.2132L42.6738 33.4215ZM20.397 33.6045L30.0841 37.5133V63.2063L16.9982 59.5378L20.397 33.6045ZM53.9607 37.2592L45.577 33.6751L48.9759 59.1994L59.6543 63.1638L53.9607 37.2592ZM17.5082 33.8305L14.152 59.4673L3.34633 63.3755L9.0393 37.4427L17.5082 33.8305Z"
@@ -620,7 +622,7 @@
                       </svg>
 
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-8">
                       <div class="card-body shadow ">
                         <h3 class="text-yellow-brown text-nowrap">50years</h3>
                         <p class="card-text">Total warehouse area</p>
@@ -631,7 +633,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-lg-6">
+          <div class="col-12 col-lg-6">
             <img src="aerial-view-of-general-cargo-ship-in-blue-sea-view-VWBNRQ7 (1).png" alt="" class="">
           </div>
         </div>
@@ -679,7 +681,7 @@
     <!-- QA -->
     <section class="container qa">
       <div class="row">
-        <div class="col-sm-12 col-lg-6">
+        <div class="col-12 col-lg-6">
           <h3 class="timeline-title text-dark-blue">Air Freight</h3>
           <br>
           <p class="text-dark-blue">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -768,7 +770,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-lg-6 mt-sm-5 mt-lg-0">
+        <div class="col-12 col-lg-6 mt-5 mt-lg-0">
           <h3 class="timeline-title text-dark-blue">Ocean Freight</h3>
           <br>
           <p class="text-dark-blue">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -860,7 +862,7 @@
 
       </div>
       <div class="row">
-        <div class="col-sm-12 col-lg-6">
+        <div class="col-12 col-lg-6">
           <h3 class="timeline-title text-dark-blue">Reil Freight</h3>
           <br>
           <p class="text-dark-blue">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -949,7 +951,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-lg-6 mt-sm-5 mt-lg-0">
+        <div class="col-12 col-lg-6 mt-5 mt-lg-0">
           <h3 class="timeline-title text-dark-blue">Reil Freight</h3>
           <br>
           <p class="text-dark-blue">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -1046,7 +1048,7 @@
     <section class="container-fluid contact">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-lg-5 text-yellow d-flex flex-column ptop-41em order-sm-2 order-lg-1">
+          <div class="col-12 col-lg-5 text-yellow d-flex flex-column ptop-41em order-2 order-lg-1">
             <h2 class="text-start">How much will <br>
               i earn?</h2>
             <br>
@@ -1057,7 +1059,7 @@
             <h6 class="text-start mb-4 fw-semibold">Call us for consultation</h6>
             <h3 class="text-start">+8 (495) 989 20 11</h3>
           </div>
-          <div class="col-sm-12 col-lg-6 order-sm-1 order-lg-2">
+          <div class="col-12 col-lg-6 order-1 order-lg-2">
             <form action="" class="contact-form">
               <div class="card rounded-0 w-40em">
                 <div class="card-body contact-body">
@@ -1107,7 +1109,7 @@
     <section class="container-fluid footer">
       <div class="container text-white">
         <div class="row">
-          <div class="col-sm-12 col-lg-4">
+          <div class="col-12 col-lg-4">
             <div class="d-flex flex-column">
               <img src="INFI-LINK LOGO-color 1 1.png" alt="" class="mb-5 footer-logo">
 
@@ -1163,7 +1165,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-lg-4">
+          <div class="col-12 col-lg-4">
             <div class="d-flex flex-column footer-list">
               <div>
                 <svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1216,10 +1218,10 @@
             </div>
 
           </div>
-          <div class="col-sm-12 col-lg-4 text-sm-center text-lg-start footer-subscribe">
-            <strong class="text-sm-center text-lg-start">Subscribe</strong>
+          <div class="col-12 col-lg-4 text-center text-lg-start footer-subscribe">
+            <strong class="text-center text-lg-start">Subscribe</strong>
             <br><br>
-            <p style="color:#E1E1E1" class="text-sm-center text-lg-start">Curabitur quis porttitor augue, et posuere
+            <p style="color:#E1E1E1" class="text-center text-lg-start">Curabitur quis porttitor augue, et posuere
               ligula. Nunc sagittis vestibulum</p>
             <br><br>
             <div class="input-group mb-3">
@@ -1231,7 +1233,7 @@
           </div>
         </div>
         <div class="row footer-card">
-          <div class="col-sm-12 col-lg-4 p-0">
+          <div class="col-12 col-lg-4 p-0">
             <div class="d-flex footer-item-1">
               <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -1248,7 +1250,7 @@
 
             </div>
           </div>
-          <div class="col-sm-12 col-lg-4 p-0">
+          <div class="col-12 col-lg-4 p-0">
 
             <div class="d-flex footer-item-2"><svg width="47" height="52" viewBox="0 0 47 52" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -1269,7 +1271,7 @@
             </div>
           </div>
 
-          <div class="col-sm-12 col-lg-4 p-0">
+          <div class="col-12 col-lg-4 p-0">
             <div class="d-flex footer-item-1">
 
               <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">

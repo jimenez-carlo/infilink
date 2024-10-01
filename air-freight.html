@@ -18,10 +18,10 @@
   </head>
 
   <body>
-    <section class="container-fluid bg-air">
+    <section class="container-fluid bg-base bg-air">
       <!-- logo login & signup -->
       <div class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img src="logo.png" alt="Bootstrap" width="175" height="51">
@@ -30,6 +30,7 @@
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
               aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
+
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
@@ -48,13 +49,14 @@
         </nav>
 
         <!-- menu -->
-        <nav class="navbar navbar-expand-lg bg-light top-menu d-sm-none d-lg-block">
+        <nav class="navbar navbar-expand-lg top-menu d-block d-lg-block">
           <div class="container-fluid">
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false"
               aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
+
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white top-menu-ul">
@@ -98,7 +100,7 @@
         <!-- Main-1 -->
         <div class="content-1 container-sm">
           <div class="row">
-            <div class="col-sm-12 col-lg-6">
+            <div class="col-12 col-lg-6">
 
               <h1 class="text-white">Air Freight</h1>
               <p class="text-white pt-3">Flexport is the platform that coordinates global logistics from factory to
@@ -106,7 +108,7 @@
                 anywhere, sell everywhere and grow faster.
               </p>
 
-              <div class="btn-group btn-primary btn-lg d-sm-block d-lg-none">
+              <div class="btn-group btn-primary btn-lg d-block d-lg-none">
                 <button type="button" class="btn btn-warning dropdown-toggle p-md btn-cta" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Consultation
@@ -119,7 +121,7 @@
               </div>
             </div>
 
-            <div class="col-sm-12 col-lg-6">
+            <div class="col-12 col-lg-6">
               <div class="card r-20 card-location rounded-0 bg-dark-gray">
                 <div class="card-body card-form-appointment">
                   <p class="p-36 text-white">Make An Appoitment</p>
@@ -143,11 +145,11 @@
                       </div>
                     </div>
                     <div class="row mb-3 mtop-26">
-                      <div class="col-sm-12 col-lg-6">
+                      <div class="col-12 col-lg-6">
                         <input type="text" class="form-control rounded-0  bg-transparent" placeholder="Date"
                           aria-label="Date">
                       </div>
-                      <div class="col-sm-12 col-lg-6">
+                      <div class="col-12 col-lg-6">
                         <button type="button"
                           class="btn btn-warning bg-yellow-brown text-white border-yellow-brown btn-submit-request">
                           Submit Request
@@ -169,11 +171,11 @@
     <!-- Best Shipping -->
     <section class="container shipping air">
       <div class="row">
-        <div class="col-sm-12 col-lg-6">
+        <div class="col-12 col-lg-6">
           <h3 class="mtop-1-5em text-dark-blue" style="font-weight: 600;">The Best Shipping Service<br>
             you Can Choose</h3>
         </div>
-        <div class="col-sm-12 col-lg-6">
+        <div class="col-12 col-lg-6">
           <p class="shipping-desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor<br> do amet sint. Velit
             officia consequat duis
             enim
@@ -189,7 +191,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-sm-6 col-lg-3 boxes">
+          <div class="col-6 col-lg-3 boxes">
             <div class="card rounded-3">
               <div class="card-body">
                 <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -212,7 +214,7 @@
             </div>
           </div>
 
-          <div class="col-sm-6 col-lg-3 boxes">
+          <div class="col-6 col-lg-3 boxes">
             <div class="card rounded-3">
               <div class="card-body">
                 <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -235,7 +237,7 @@
             </div>
           </div>
 
-          <div class="col-sm-6 col-lg-3 boxes">
+          <div class="col-6 col-lg-3 boxes">
             <div class="card rounded-3">
               <div class="card-body">
                 <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -258,7 +260,7 @@
             </div>
           </div>
 
-          <div class="col-sm-6 col-lg-3 boxes">
+          <div class="col-6 col-lg-3 boxes">
             <div class="card rounded-3">
               <div class="card-body">
                 <svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -287,7 +289,7 @@
     <!-- Overview -->
     <section class="container overview-1">
       <div class="row mtop-8em">
-        <div class="col-sm-12 col-lg-6">
+        <div class="col-12 col-lg-6">
           <h3 class="mtop-1-5em text-dark-blue" style="font-weight: 600;">Title Here</h3>
           <p class="mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
             consequat duis enim velit
@@ -306,7 +308,7 @@
             sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
           </p>
         </div>
-        <div class="col-sm-12 col-lg-6 position-relative mt-sm-5 mt-lg-0" style="padding-left: 10em;">
+        <div class="col-12 col-lg-6 position-relative mt-5 mt-lg-0" style="padding-left: 10em;">
           <div class="square bg-yellow-brown position-absolute rounded-3">
           </div>
           <img src="Image Placeholder (2).png" alt="" class="position-absolute" style="left: 7em;top: -2em;">
@@ -315,15 +317,15 @@
     </section>
 
     <section class="container overview-2">
-      <div class="row mtop-8em me-sm-3 me-lg-0 mt-0">
-        <div class="col-sm-12 col-lg-6 position-relative" style="padding-left: 10em;">
+      <div class="row mtop-8em me-3 me-lg-0 mt-0">
+        <div class="col-12 col-lg-6 position-relative" style="padding-left: 10em;">
           <div class="square bg-yellow-brown position-absolute rounded-3" style="left: 8em;">
           </div>
           <img src="Image Placeholder (3).png" alt="" class="position-absolute" style="left: -6em">
         </div>
-        <div class="col-sm-12 col-lg-6 mb-sm-4 mb-lg-0 overview-large">
+        <div class="col-12 col-lg-6 mb-4 mb-lg-0 overview-large">
           <h3 class="mtop-6em text-dark-blue text-end" style="font-weight: 600;">Title Here</h3>
-          <p class="mt-4 text-end mb-sm-4 mb-lg-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          <p class="mt-4 text-end mb-4 mb-lg-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit
             officia
             consequat duis enim velit
@@ -355,7 +357,7 @@
           <div class="d-flex flex-wrap services-shadow shadow">
 
 
-            <div class="card-item d-flex flex-nowrap order-sm-0 order-lg-0">
+            <div class="card-item d-flex flex-nowrap order-0 order-lg-0">
               <img src="Mask.jpg" alt="">
               <div class="d-flex flex-column card-image-details p-3em">
                 <svg width="42" height="44" viewBox="0 0 42 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -375,7 +377,7 @@
               </div>
             </div>
 
-            <div class="card-item d-flex flex-nowrap order-sm-1 order-lg-4">
+            <div class="card-item d-flex flex-nowrap order-1 order-lg-4">
               <div class="d-flex flex-column card-image-details p-3em">
                 <svg width="43" height="44" viewBox="0 0 43 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd"
@@ -390,7 +392,7 @@
               <img src="Mask (2).png" alt="">
             </div>
 
-            <div class="card-item d-flex flex-nowrap order-sm-2 order-lg-1">
+            <div class="card-item d-flex flex-nowrap order-2 order-lg-1">
               <img src="Mask (1).png" alt="">
               <div class="d-flex flex-column card-image-details p-3em">
                 <svg width="31" height="44" viewBox="0 0 31 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -418,7 +420,7 @@
               </div>
             </div>
 
-            <div class="card-item d-flex flex-nowrap order-sm-3">
+            <div class="card-item d-flex flex-nowrap order-3">
               <div class="d-flex flex-column card-image-details p-3em">
                 <svg width="42" height="44" viewBox="0 0 42 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd"
@@ -454,7 +456,7 @@
     <section class="container trusted mt-12em">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-lg-6">
+          <div class="col-12 col-lg-6">
             <h3 class="text-dark-blue " style="font-weight: 600;line-height: 64px;">Trusted by International <br>
               Companies And Partners</h3>
             <br>
@@ -464,7 +466,7 @@
               mollit. Exercitation veniam</p>
 
           </div>
-          <div class="col-sm-12 col-lg-6">
+          <div class="col-12 col-lg-6">
             <img src="Partner.png" alt="">
           </div>
         </div>
@@ -473,9 +475,9 @@
     <!-- Contact Showcase -->
     <section class="container-fluid text-white contact-showcase">
       <div class="row pt-lg-5">
-        <div class="col-sm-12 order-sm-2 order-lg-1 col-lg-8 contact-showcase-bg">
+        <div class="col-12 order-2 order-lg-1 col-lg-8 contact-showcase-bg">
         </div>
-        <div class="col-sm-12 order-sm-1 order-lg-2 col-lg-4">
+        <div class="col-12 order-1 order-lg-2 col-lg-4">
           <div class="d-flex flex-column pleft-2em">
             <h5 class="mt-5em">Provide quick<br>
               tracking your cargo</h5>
@@ -490,7 +492,7 @@
     <!-- QA -->
     <section class="container qa">
       <div class="row">
-        <div class="col-sm-12 col-lg-6">
+        <div class="col-12 col-lg-6">
           <h3 class="timeline-title text-dark-blue">Air Freight</h3>
           <br>
           <p class="text-dark-blue">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -579,7 +581,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-lg-6 mt-sm-5 mt-lg-0">
+        <div class="col-12 col-lg-6 mt-5 mt-lg-0">
           <h3 class="timeline-title text-dark-blue">Ocean Freight</h3>
           <br>
           <p class="text-dark-blue">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -671,7 +673,7 @@
 
       </div>
       <div class="row">
-        <div class="col-sm-12 col-lg-6">
+        <div class="col-12 col-lg-6">
           <h3 class="timeline-title text-dark-blue">Reil Freight</h3>
           <br>
           <p class="text-dark-blue">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -760,7 +762,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-lg-6 mt-sm-5 mt-lg-0">
+        <div class="col-12 col-lg-6 mt-5 mt-lg-0">
           <h3 class="timeline-title text-dark-blue">Reil Freight</h3>
           <br>
           <p class="text-dark-blue">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -858,7 +860,7 @@
     <section class="container-fluid contact">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-lg-5 text-yellow d-flex flex-column ptop-41em order-sm-2 order-lg-1">
+          <div class="col-12 col-lg-5 text-yellow d-flex flex-column ptop-41em order-2 order-lg-1">
             <h2 class="text-start">How much will <br>
               i earn?</h2>
             <br>
@@ -869,7 +871,7 @@
             <h6 class="text-start mb-4 fw-semibold">Call us for consultation</h6>
             <h3 class="text-start">+8 (495) 989 20 11</h3>
           </div>
-          <div class="col-sm-12 col-lg-6 order-sm-1 order-lg-2">
+          <div class="col-12 col-lg-6 order-1 order-lg-2">
             <form action="" class="contact-form">
               <div class="card rounded-0 w-40em">
                 <div class="card-body contact-body">
@@ -919,7 +921,7 @@
     <section class="container-fluid footer">
       <div class="container text-white">
         <div class="row">
-          <div class="col-sm-12 col-lg-4">
+          <div class="col-12 col-lg-4">
             <div class="d-flex flex-column">
               <img src="INFI-LINK LOGO-color 1 1.png" alt="" class="mb-5 footer-logo">
 
@@ -975,7 +977,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-12 col-lg-4">
+          <div class="col-12 col-lg-4">
             <div class="d-flex flex-column footer-list">
               <div>
                 <svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1028,10 +1030,10 @@
             </div>
 
           </div>
-          <div class="col-sm-12 col-lg-4 text-sm-center text-lg-start footer-subscribe">
-            <strong class="text-sm-center text-lg-start">Subscribe</strong>
+          <div class="col-12 col-lg-4 text-center text-lg-start footer-subscribe">
+            <strong class="text-center text-lg-start">Subscribe</strong>
             <br><br>
-            <p style="color:#E1E1E1" class="text-sm-center text-lg-start">Curabitur quis porttitor augue, et posuere
+            <p style="color:#E1E1E1" class="text-center text-lg-start">Curabitur quis porttitor augue, et posuere
               ligula. Nunc sagittis vestibulum</p>
             <br><br>
             <div class="input-group mb-3">
@@ -1043,7 +1045,7 @@
           </div>
         </div>
         <div class="row footer-card">
-          <div class="col-sm-12 col-lg-4 p-0">
+          <div class="col-12 col-lg-4 p-0">
             <div class="d-flex footer-item-1">
               <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -1060,7 +1062,7 @@
 
             </div>
           </div>
-          <div class="col-sm-12 col-lg-4 p-0">
+          <div class="col-12 col-lg-4 p-0">
 
             <div class="d-flex footer-item-2"><svg width="47" height="52" viewBox="0 0 47 52" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -1081,7 +1083,7 @@
             </div>
           </div>
 
-          <div class="col-sm-12 col-lg-4 p-0">
+          <div class="col-12 col-lg-4 p-0">
             <div class="d-flex footer-item-1">
 
               <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
